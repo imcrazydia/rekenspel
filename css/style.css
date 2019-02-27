@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Rancho');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Rancho', sans-serif;
+  background-image: url('../img/room.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#head{
+  font-size: 60px;
+  text-decoration: underline;
+  margin-left: 647px;
+  color: black;
+  background-color: white;
+  margin-right: 621px;
+  border: solid;
+
+}
+
+#myAssignment{
+  font-size: 70px;
+  text-align: center;
+  border: solid;
+  border-radius: 6px;
+  background-color: #8c8c8c;
+}
+
+#myAnswer{
+  text-align: center;
+  font-size: 20px;
+}
+.box{
+  text-align: center;
+  border: solid;
+  border-color: #808080;
+}
+#feedback{
+  text-align: center;
+}
+.wrapper{
+border: solid;
+border-radius: 6px;
+position: absolute;
+left: 500px;
+top: 90px;
+padding-top: 10px;
+padding-left: 158px;
+padding-right: 159px;
+background-color: #999999;
+}
+.calculator{
+border: solid;
+border-radius: 6px;
+position: absolute;
+top: 490px;
+left: 499px;
+background-color: black;
+}
+
+.correct {
+  color: green;
+  position: absolute;
+  left: 510px;
+  top: 250px;
+  font-size: 28px;
+}
+.incorrect {
+  color: red;
+  position: absolute;
+  left: 885px;
+  top: 250px;
+  font-size: 28px;
+}
